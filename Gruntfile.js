@@ -20,7 +20,7 @@ module.exports = function(grunt) {
                     "jquery/dist/jquery.min.map"
                 ],
                 dest: "server/public/vendors/"
-            },
+            }
         }
     });
 
