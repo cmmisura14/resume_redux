@@ -26,8 +26,7 @@
     /*width: 32%;*/
     /*margin: 0%;*/
 
-}
-#green{
+#green {
     background-color: #e1dccc;
     color: white;
     padding: 1% 1% 1% 1%;
@@ -43,12 +42,12 @@
     font-family: Verdana;
 }
 
-/*body {*/
-    /*margin-top: 0px;*/
-    /*margin-right: 0px;*/
-    /*margin-bottom: 0px;*/
-    /*margin-left: 0px;*/
-/*}*/
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
 
 li {
     font-size: 13px;
