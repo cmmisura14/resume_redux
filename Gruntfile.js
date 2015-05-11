@@ -5,7 +5,10 @@ module.exports = function(grunt) {
             options: {
                 banner: '/*!<%=pkg.name%><%=grunt.template.today("yyyy-mm-dd")%>*/\n'
             },
-            build: {}
+            build: {
+                src: 'client/app.js',
+                dest: 'server/public/assets/scripts/app.min.js'
+            }
 
         },
         copy: {
@@ -20,6 +23,12 @@ module.exports = function(grunt) {
                     "jquery/dist/jquery.min.map"
                 ],
                 dest: "server/public/vendors/"
+            },
+            client: {
+                expand: true,
+                cwd: "client/",
+                src: "stylesheet.css",
+                "dest": "server/public/assets/styles/"
             }
         }
     });
